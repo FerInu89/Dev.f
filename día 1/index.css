@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+}
+
+header{
+    width: 100vw;
+    height: auto;
+}
+
+.menu{
+    height: 100px;
+    background-color: #D3D93B;
+    box-shadow: 0 0 .2rem #D3D93B,
+    0 0 .2rem #D3D93B,
+    0 0 2rem #D3D93B,
+    0 0 0.8rem #D3D93B,
+    0 0 2.8rem #D3D93B,
+    inset 0 0 1.3rem #D3D93B; 
+    color: #0D0D0D;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    font-size: 1.9vw;
+    text-align: center;
+
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.menu ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+.info{
+    text-align: center;
+    height: auto;
+    padding: 60px;
+    color: #D3D93B;
+    text-shadow:
+    0 0 5px #D3D93B;
+    font-size: 1.5vw;
+}
+
+.info h2{
+    font-weight: 400;
+}
+
+
+.imgSize{
+    border: solid 1px #415766;
+    box-shadow: 0 0 .2rem #415766,
+    0 0 .2rem #415766,
+    0 0 2rem #415766,
+    0 0 0.8rem #415766,
+    0 0 2.8rem #415766,
+    inset 0 0 1.3rem #415766; 
+    width: 11vw;
+    height: 11vw;
+    object-fit:cover;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.imgSize:hover{
+    transform: scale(0.9);
+}
+
+
+.flex-container{
+    background: black;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+    width: 99%;
+    height: auto;
+}
+
+.caja{
+    border: 0.1rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #D3D93B,
+    0 0 0.8rem #D3D93B,
+    0 0 2.8rem #D3D93B,
+    inset 0 0 1.3rem #D3D93B; 
+    background: #D3D93B;
+    width: 12vw;
+    line-height: 25px;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.c1{
+    color: black;
+    flex-grow: 5;
+    margin: 2vw;
+    order: 2;
+    font-size: 1.5vw;
+    width: 2vw;
+    line-height: normal;
+}
+
+.c2{
+    color: black;
+    flex-grow: 1;
+    margin: 2vw;
+    order: 1;
+    font-size: 1.5vw;
+    width: 2vw;
+    line-height: normal;
+}
+
+.skills{
+    padding-left: 30px;
+}
+
+.redes{
+    padding-left: 30px;
+}
+
+.summary{
+    border-color: #415766;
+    border-style: solid;
+    border-width: 0px 0px 0px 20px;
+}
+
+.work{
+    border-color: #415766;
+    border-style: solid;
+    border-width: 0px 0px 0px 20px;
+}
+
+
+

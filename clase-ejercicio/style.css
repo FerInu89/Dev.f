@@ -1,0 +1,17 @@
+*{
+    font-family: sans-serif;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 2fr minmax(100px, 3fr);
+}
+
+.hero-image img{
+    width: 100%;
+    object-fit: contain;
+}

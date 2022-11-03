@@ -1,0 +1,19 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boton{
+    width: 23.5%;
+    flex: none;
+    margin-bottom: 2%;
+}

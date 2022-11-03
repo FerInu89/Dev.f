@@ -1,0 +1,15 @@
+#paginacion{
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.izquierda{
+    margin: 10px;
+}
+
+.derecha{
+    margin: 10px;
+}
